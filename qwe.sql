@@ -1,0 +1,14 @@
+SET NAMES UTF8;
+DROP DATABASE IF EXISTS daNiu;
+CREATE DATABASE daNiu CHARSET=UTF8;
+USE daNiu;
+
+CREATE TABLE xiaoNiu (
+	id  INT PRIMARY KEY AUTO_INCREMENT,
+	uname	VARCHAR(16),
+	upwd	VARCHAR(16)
+);
+INSERT INTO xiaoNiu VALUES
+(null,'tom','123'),
+(null,'tim','123'),
+(null,'mike','123');
